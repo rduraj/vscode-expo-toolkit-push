@@ -7,6 +7,6 @@
 * Sending Expo PUSH notifications
 * Saving notification payload for further use
 
-![Features](./feature.gif)
+![Features](images/feature.gif)
 
 **Enjoy!**
