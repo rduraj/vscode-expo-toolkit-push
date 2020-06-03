@@ -29,9 +29,6 @@ export const sendExpoNotification = (notification: ExpoNotification) => {
       }
     },
     res => {
-      console.log(res)
-
-
       res.statusCode === HttpStatus.OK
         ? vscode.window.showInformationMessage('PUSH successfully sent.')
         : vscode.window.showErrorMessage('Sending PUSH failed. Check your notification config.')

@@ -4,7 +4,7 @@
 	"description": "Sending Expo PUSH notifications from VS Code",
 	"version": "1.0.0",
 	"engines": {
-		"vscode": "1.45.1"
+    "vscode": "^1.45.0"
 	},
 	"categories": [
 		"Other"
@@ -13,7 +13,13 @@
 		"onCommand:expo-toolkit-push.sendNotification"
 	],
 	"main": "./out/extension.js",
-  "author": "Robert Duraj <rduraj@gmail.com>",
+	"author": "Robert Duraj <rduraj@gmail.com>",
+	"publisher": "rduraj",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rduraj/vscode-expo-toolkit-push"
+	},
+  "license": "MIT",
 	"contributes": {
 		"commands": [
 			{
